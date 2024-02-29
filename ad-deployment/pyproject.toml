@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "ad-deployment"
+version = "0.1.0"
+description = "end to end deployment on Azure using Bicep"
+authors = ["JesseHoekman <jessehoekman@hotmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "~3.9"
+requests = "^2"
+databricks-cli = "^0.16"
+python-dotenv = ">=0.21.1"
+urllib3 = "<1.26.0"
+poetry-dotenv-plugin = "^0.2.0"
+
+[tool.poetry.scripts]
+azure_deployment = "azure-deployment.deploy:run"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

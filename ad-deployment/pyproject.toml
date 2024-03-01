@@ -14,7 +14,7 @@ urllib3 = "<1.26.0"
 poetry-dotenv-plugin = "^0.2.0"
 
 [tool.poetry.scripts]
-azure_deployment = "azure-deployment.deploy:run"
+compute_policy = "ad_deployment.compute_policy:main"
 
 [build-system]
 requires = ["poetry-core"]

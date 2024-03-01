@@ -1,0 +1,17 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python: Module - ad_deployment.compute_policy",
+            "type": "python",
+            "request": "launch",
+            "module": "ad_deployment.compute_policy",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}/ad-deployment",
+            "env": {
+                "PYTHONPATH": "${workspaceFolder}/ad-deployment"
+            },
+            "args": []
+        }
+    ]
+}
